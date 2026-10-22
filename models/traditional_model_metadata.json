@@ -1,0 +1,14 @@
+{
+    "model_name": "SVM_RBF_C5",
+    "model_type": "Support Vector Classifier (RBF Kernel)",
+    "feature_dimensions": 558,
+    "class_names": [
+        "blackspot",
+        "canker",
+        "fresh",
+        "grenning"
+    ],
+    "val_macro_f1": 0.9778,
+    "train_time_sec": 0.325,
+    "inference_latency_ms_per_image": 0.225
+}

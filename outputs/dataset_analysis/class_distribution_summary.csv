@@ -1,0 +1,5 @@
+class,train_count,val_count,test_count,total_count
+blackspot,156,28,22,206
+canker,152,27,22,201
+fresh,239,42,33,314
+grenning,295,52,22,369

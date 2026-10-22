@@ -1,0 +1,79 @@
+{
+    "test_set_size": 99,
+    "traditional_model": {
+        "model_name": "Traditional CV (HSV+LBP+SVM)",
+        "accuracy": 0.9899,
+        "macro_precision": 0.9891,
+        "macro_recall": 0.9886,
+        "macro_f1": 0.9886,
+        "weighted_f1": 0.9899,
+        "avg_latency_ms": 93.38,
+        "train_time_sec": 0.324998140335083,
+        "total_training_sec": 64.6344826221466,
+        "model_size_mb": 1.34,
+        "per_class": {
+            "blackspot": {
+                "precision": 1.0,
+                "recall": 0.9545,
+                "f1_score": 0.9767,
+                "support": 22
+            },
+            "canker": {
+                "precision": 0.9565,
+                "recall": 1.0,
+                "f1_score": 0.9778,
+                "support": 22
+            },
+            "fresh": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "support": 33
+            },
+            "grenning": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "support": 22
+            }
+        }
+    },
+    "cnn_model": {
+        "model_name": "Deep Learning (MobileNetV2)",
+        "accuracy": 0.9495,
+        "macro_precision": 0.9475,
+        "macro_recall": 0.9432,
+        "macro_f1": 0.9447,
+        "weighted_f1": 0.9492,
+        "avg_latency_ms": 108.63,
+        "train_time_sec": 978.77,
+        "total_training_sec": 978.77,
+        "model_size_mb": 8.74,
+        "per_class": {
+            "blackspot": {
+                "precision": 0.95,
+                "recall": 0.8636,
+                "f1_score": 0.9048,
+                "support": 22
+            },
+            "canker": {
+                "precision": 0.8696,
+                "recall": 0.9091,
+                "f1_score": 0.8889,
+                "support": 22
+            },
+            "fresh": {
+                "precision": 0.9706,
+                "recall": 1.0,
+                "f1_score": 0.9851,
+                "support": 33
+            },
+            "grenning": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "support": 22
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+Metric,Traditional CV (HSV+LBP+SVM),Deep Learning (MobileNetV2),Difference (CNN - Trad)
+Test Accuracy,98.99%,94.95%,-4.04%
+Macro Precision,0.9891,0.9475,-0.0416
+Macro Recall,0.9886,0.9432,-0.0454
+Macro F1-Score,0.9886,0.9447,-0.0439
+Weighted F1-Score,0.9899,0.9492,-0.0407
+Avg Latency per Image (CPU),93.38 ms,108.63 ms,+15.25 ms
+Model File Size,1.34 MB,8.74 MB,+7.40 MB
+Total Training Duration,64.6 s,978.8 s,+914.1 s
